@@ -1,0 +1,46 @@
+matanel.pataki
+
+
+
+***** ADDITIONAL FILES *****
+
+*** Mark.java
+    Contains helpful enums for the program.
+
+
+***** STRATEGIES *****
+
+*** Strategy for 'whateverPlayer':
+    The player chooses an evenly distributed open location on the board
+    to place the mark in.
+
+*** Strategy for 'cleverPlayer':
+    The player is determined to keep on placing its mark in a certain direction.
+    By Doing that, it is able to create streaks faster than in a random placements.
+
+*** Strategy for 'snartypamtsPlayer':
+    The player is determined to keep on placing its mark in a certain direction.
+    By Doing that, it is able to create streaks faster than in random placements.
+    Also, this player is able to block incoming win streaks of the opponent in
+    some situation and also knowing if it able to surely win in the next turn.
+    This player is tailored to win over the clever player (and by result the
+    random player as well) by knowing its mechanic (which he uses as well).
+    if needed, please see SnartypamtsPlayer.java for more details.
+
+
+***** TOURNAMENTS *****
+
+*** 500 rounds - 'whatever' vs 'clever':
+    whatever: 1, clever: 499, Draws: 0
+
+*** 500 rounds - 'whatever' vs 'snartypamts':
+    whatever: 0, snartypamts: 500, Draws: 0
+
+*** 500 rounds - 'clever' vs 'snartypamts':
+    clever: 50, snartypamts: 450, Draws: 0
+
+*** 1000 rounds - 'whatever' vs 'whatever':
+    player1: 5010, player2: 4956, Draws: 34
+
+
+I had fun in the exercise, thanks. :)
